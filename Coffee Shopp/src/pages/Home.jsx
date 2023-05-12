@@ -11,7 +11,7 @@ const Home = (props) => {
     "Minuman (Coffee dan Non-Coffee)"
   );
   const [keranjangs, setKeranjangs] = useState([]);
-  const [searchQuery, setSearchQuery] = useState(""); // New state for search query
+  const [searchQuery, setSearchQuery] = useState("");
 
   const getListKeranjang = () => {
     axios
@@ -33,7 +33,7 @@ const Home = (props) => {
           categoriYangDipilih +
           "&nama_like=" +
           searchQuery
-      ) // Include search query parameter in the API request
+      )
       .then((res) => {
         const daftarMenu = res.data;
         setDaftarMenu(daftarMenu);
@@ -138,13 +138,13 @@ const Home = (props) => {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search by name..." // Input field for search
+              placeholder="Search by name..." // Mencari nama makanan
             />
             <Row className="overflow-auto menu">
               {daftarMenu
                 .filter((item) =>
                   item.nama.toLowerCase().includes(searchQuery.toLowerCase())
-                ) // Filter menu items based on search query
+                ) // Di filter berdasarkan productnya
                 .map((item) => (
                   <DaftarMenu
                     key={item.id}
