@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home, SuksesPages } from "./pages";
+import { Home, Done } from "./pages";
 import LandingPage from "./LandingPage";
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
         <Routes>
           <Route path="/landing" element={<LandingPage />} />
           <Route path="*" element={<Home />} />
-          <Route path="/suksespages" element={<SuksesPages />} />
+          <Route path="/Done" element={<Done />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Badge, Card, Col, ListGroup, Row } from "react-bootstrap";
 import { numberWithCommas } from "../utils/utils";
 import TotalBayar from "./TotalBayar";
-import ModalKeranjang from "./ModalKeranjang";
+import Edit from "./Edit";
 import axios from "axios";
 import { API_URL } from "../utils/constants";
 import swal from "sweetalert";
@@ -122,7 +122,7 @@ const Hasil = (props) => {
               </ListGroup.Item>
             ))}
 
-            <ModalKeranjang
+            <Edit
               handleClose={handleClose}
               show={show}
               keranjangDetail={keranjangDetail}

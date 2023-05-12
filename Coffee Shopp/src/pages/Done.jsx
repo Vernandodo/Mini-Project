@@ -5,7 +5,7 @@ import { NavbarCoffee } from "../components";
 import axios from "axios";
 import { API_URL } from "../utils/constants";
 
-const SuksesPages = () => {
+const Done = () => {
   useEffect(() => {
     axios
       .get(API_URL + "keranjangs")
@@ -41,4 +41,4 @@ const SuksesPages = () => {
   );
 };
 
-export default SuksesPages;
+export default Done;

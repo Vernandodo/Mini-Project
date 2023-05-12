@@ -16,7 +16,7 @@ const TotalBayar = (props) => {
       daftarMenu: props.keranjangs,
     };
     axios.post(API_URL + "pesanans", pesanan).then((res) => {
-      navigate("/suksespages");
+      navigate("/Done");
     });
   };
 

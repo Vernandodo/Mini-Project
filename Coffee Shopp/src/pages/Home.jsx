@@ -121,7 +121,7 @@ const Home = (props) => {
 
   return (
     <div>
-      <NavbarCoffee />
+      <NavbarCoffee as />
       <Container fluid className="mt-3">
         <Row>
           <ListCategories
