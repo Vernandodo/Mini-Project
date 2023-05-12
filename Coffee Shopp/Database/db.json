@@ -109,6 +109,27 @@
         }
       ],
       "id": 1
+    },
+    {
+      "daftarMenu": [
+        {
+          "jumlah": 1,
+          "total_harga": 30000,
+          "product": {
+            "id": 8,
+            "nama": "Fried Dumplingg",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "pangsit.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Makanan Ringan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
     }
   ],
   "keranjangs": []
