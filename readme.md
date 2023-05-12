@@ -1,3 +1,5 @@
 # Mini-Project
 
-Link Figma : https://www.figma.com/file/jW3NwSmMbkLEhrgMtK7aIN/Untitled?node-id=0%3A1&t=AqFXuLj23HHnXQtC-1
+link video deploy : https://drive.google.com/file/d/1lYCtT5mt_OD5xbiQuy7DnDVVFWBJFYI5/view?usp=sharing
+
+Link vercel : https://mini-project-7pmh.vercel.app/
